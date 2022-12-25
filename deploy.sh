@@ -20,8 +20,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+# git push -f git@github.com:irene0103/vuecli.git master:gh-pages
 
 cd -
 
-# git push -f https://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@github.com/irene0103/vuecli.git master:gh-pages
+# git push -f https://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@github.com/irene0103/vueclii.git master:gh-pages
