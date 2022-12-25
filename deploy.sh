@@ -24,4 +24,4 @@ git commit -m 'deploy'
 
 cd -
 
-# git push -f https://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@github.com/irene0103/vue_cli_test.git master:gh-pages
+# git push -f https://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@github.com/irene0103/vuecli.git master:gh-pages

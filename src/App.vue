@@ -1,9 +1,14 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">首頁</router-link> |
+    <router-link to="/about">關於我們</router-link> |
+    <router-link to="/component">組件區</router-link>
   </nav>
-  <router-view/>
+  <div class="wrap">
+    <router-view/>
+
+  </div>
+  <thefooter/>
 </template>
 
 <style lang="scss">
@@ -15,16 +20,32 @@
   color: #2c3e50;
 }
 
+body{
+  position: relative;
+}
 nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(141, 215, 255);
+  text-align: center;
   padding: 30px;
+  position: fixed;
+  z-index: 20;
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: rgb(24, 24, 96);
     }
   }
+}
+.wrap{
+  position: relative;
+  top: 50px;
 }
 </style>
